@@ -1,0 +1,70 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+ 
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.image-text {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px; /* Ajuste para separar el cuadro de texto de la imagen */
+  text-align: justify;
+}
+
+.back-to-top {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white; /* Cambiado a blanco para contrastar con el fondo */
+  background-color: blue; /* Añadido */
+  padding: 10px 20px; /* Añadido para agregar espacio alrededor del texto */
+  border-radius: 5px; /* Añadido para redondear los bordes */
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  background-color: darkblue; /* Cambio de color al pasar el cursor */
+}
