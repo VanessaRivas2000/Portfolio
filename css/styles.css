@@ -513,7 +513,7 @@ footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  gap: 20px; /* Espacio entre las imágenes */
+  gap: 15px; /* Espacio entre las imágenes */
   margin-top: 20px; /* Margen superior para separación */
 
 }
