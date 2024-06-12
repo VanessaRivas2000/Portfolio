@@ -515,6 +515,9 @@ footer{
   justify-content: left;
   gap: 15px; /* Espacio entre las imágenes */
   margin-top: 20px; /* Margen superior para separación */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -522,6 +525,8 @@ footer{
   flex: 1 1 calc(50% - 20px); /* 50% del ancho menos el espacio del gap */
   box-sizing: border-box; /* Para incluir el padding y border en el tamaño */
   text-align: left; /* Alineación a la izquierda */
+  width: 50%; /* Adjusts the width of the certificate */
+  margin: 10px;
 }
 
 .certificate-item img {
@@ -529,7 +534,10 @@ footer{
   height: auto; /* Mantiene la proporción de la imagen */
   border: 2px solid #ccc; /* Borde opcional alrededor de la imagen */
   border-radius: 10px; /* Bordes redondeados opcionales */
+  width: 100%; /* Makes the image fill the container */
+  height: auto; /* Maintains the aspect ratio */
 }
+
 
 
 
